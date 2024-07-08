@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hermid"
+version = "0.1.0"
+description = ""
+authors = ["lisihindanil@gmail.com"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mubble = "^1.2.0"
+tortoise-orm = "^0.21.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
