@@ -15,5 +15,5 @@ menu = (
 
 back_to_menu = (
     InlineKeyboard().add(InlineButton("↩️ Назад", callback_data="menu"))
-)
+).get_markup()
 
